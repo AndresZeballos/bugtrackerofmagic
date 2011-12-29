@@ -11,10 +11,11 @@ import java.util.List;
  * @author Andres
  */
 public class Jugador {
-    List<ICarta> mano;
-    List<ICarta> biblioteca;
-    List<ICarta> cementerio;
-    List<ICarta> en_juego;
-    List<ICarta> removidas;
+    private List<ICarta> mano;
+    private List<ICarta> biblioteca;
+    private List<ICarta> cementerio;
+    private List<ICarta> en_juego;
+    private List<ICarta> removidas;
+    private int vidas;
     
 }
