@@ -10,10 +10,19 @@ package bugtrackerofmagic;
  */
 public class Bugtrackerofmagic {
 
+    
+    public static void rec(){
+        
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[] cartas = new int[60];
+        for (int i = 0; i < cartas.length; i++) {
+            cartas[i] = i;
+        }
+        
+        
     }
 }
